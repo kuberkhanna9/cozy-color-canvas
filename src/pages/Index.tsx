@@ -12,7 +12,7 @@ const Index = () => {
           <h1 className="text-xl font-bold gradient-text">UniVibe</h1>
           <Button 
             variant="outline"
-            onClick={() => navigate("/auth")}
+            onClick={() => navigate("/login")}
           >
             Sign In / Sign Up
           </Button>
