@@ -13,10 +13,11 @@ const Index = () => {
             variant="outline"
             onClick={() => navigate("/auth")}
           >
-            Sign In
+            Sign In / Sign Up
           </Button>
         </div>
       </nav>
+      {/* Add your landing page content here */}
     </div>
   );
 };
